@@ -1,2 +1,3 @@
 services:
   guvenli-app:
+    image: guvensiz-app:v2
