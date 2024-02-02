@@ -1,3 +1,4 @@
 services:
   guvenli-app:
     image: guvensiz-app:v2
+    container_name: kale-app-otomatik
