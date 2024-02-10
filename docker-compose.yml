@@ -4,3 +4,4 @@ services:
     container_name: kale-app-otomatik
     # GÜVENLİK AYARLARI (Hardening)
     read_only: true       # Dosya sistemi salt okunur (Hacker dosya yazamaz)
+    cap_drop:
