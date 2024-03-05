@@ -6,3 +6,4 @@ services:
     read_only: true       # Dosya sistemi salt okunur (Hacker dosya yazamaz)
     cap_drop:
       - ALL               # Tüm Linux yeteneklerini çöpe at
+    user: nonroot         # Asla root olarak çalışma
