@@ -7,3 +7,4 @@ services:
     cap_drop:
       - ALL               # Tüm Linux yeteneklerini çöpe at
     user: nonroot         # Asla root olarak çalışma
+    ports:
