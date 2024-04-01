@@ -3,3 +3,6 @@
 FROM node:22-bookworm-slim AS builder
 
 WORKDIR /app
+
+# Sadece bağımlılık dosyalarını kopyala (Cache optimizasyonu için)
+COPY package.json ./
