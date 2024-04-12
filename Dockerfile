@@ -6,3 +6,6 @@ WORKDIR /app
 
 # Sadece bağımlılık dosyalarını kopyala (Cache optimizasyonu için)
 COPY package.json ./
+
+# Bağımlılıkları yükle
+RUN npm install
