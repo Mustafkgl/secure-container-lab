@@ -9,3 +9,6 @@ COPY package.json ./
 
 # Bağımlılıkları yükle
 RUN npm install
+
+# Kaynak kodun geri kalanını kopyala
+COPY server.js .
