@@ -12,3 +12,5 @@ RUN npm install
 
 # Kaynak kodun geri kalanını kopyala
 COPY server.js .
+
+# --- Aşama 2: Runtime (Distroless - Temiz Ortam) ---
