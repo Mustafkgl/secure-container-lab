@@ -16,3 +16,5 @@ COPY server.js .
 # --- Aşama 2: Runtime (Distroless - Temiz Ortam) ---
 # İçinde işletim sistemi olmayan, sadece Node.js çalıştıran Google imajı
 FROM gcr.io/distroless/nodejs22-debian12
+
+WORKDIR /app
