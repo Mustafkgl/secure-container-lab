@@ -18,3 +18,5 @@ COPY server.js .
 FROM gcr.io/distroless/nodejs22-debian12
 
 WORKDIR /app
+
+# Sadece Builder aşamasında oluşturduğumuz "temiz" dosyaları alıyoruz
