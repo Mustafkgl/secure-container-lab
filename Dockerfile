@@ -22,3 +22,4 @@ WORKDIR /app
 # Sadece Builder aşamasında oluşturduğumuz "temiz" dosyaları alıyoruz
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/server.js ./server.js
+COPY --from=builder /app/package.json ./package.json
