@@ -27,3 +27,6 @@ COPY --from=builder /app/package.json ./package.json
 # GÜVENLİK: Root yetkisini alıyoruz!
 # Distroless içinde hazır gelen 'nonroot' (UID: 65532) kullanıcısına geçiyoruz.
 USER nonroot
+
+# Uygulamayı başlat
+CMD ["server.js"]
