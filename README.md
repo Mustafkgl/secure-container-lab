@@ -7,3 +7,7 @@ Bu proje, modern **DevSecOps** prensipleri kullanılarak, güvensiz bir konteyne
 Standart Docker imajlarının (örn: `node:latest`) barındırdığı **1600+ güvenlik açığını** analiz etmek ve **Google Distroless** mimarisi ile saldırı yüzeyini (Attack Surface) minimize etmektir.
 
 ---
+
+## 📊 Sonuçlar: Öncesi ve Sonrası
+
+**Trivy** güvenlik tarayıcısı ile yapılan analiz sonuçları:
