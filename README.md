@@ -32,3 +32,6 @@ Tek bir monolitik yapı yerine, "Builder" ve "Runtime" aşamaları ayrıldı. De
 İşletim sistemi olmayan (OS-less) imaj kullanıldı.
 
 - 🚫 **Shell Yok:** `/bin/sh` veya `/bin/bash` olmadığı için RCE (Uzaktan Kod Yürütme) saldırıları engellendi.
+- 🚫 **Paket Yöneticisi Yok:** `apt/apk` olmadığı için saldırgan yeni araç indiremez.
+
+### 3. Runtime Hardening (Çalışma Zamanı Sertleştirme)
