@@ -35,3 +35,7 @@ Tek bir monolitik yapı yerine, "Builder" ve "Runtime" aşamaları ayrıldı. De
 - 🚫 **Paket Yöneticisi Yok:** `apt/apk` olmadığı için saldırgan yeni araç indiremez.
 
 ### 3. Runtime Hardening (Çalışma Zamanı Sertleştirme)
+
+Konteyner, "en az ayrıcalık" ilkesine göre sınırlandırıldı:
+
+- **Non-Root User:** Uygulama `root` yerine kısıtlı kullanıcı ile çalışıyor.
