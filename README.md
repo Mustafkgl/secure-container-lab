@@ -39,3 +39,5 @@ Tek bir monolitik yapı yerine, "Builder" ve "Runtime" aşamaları ayrıldı. De
 Konteyner, "en az ayrıcalık" ilkesine göre sınırlandırıldı:
 
 - **Non-Root User:** Uygulama `root` yerine kısıtlı kullanıcı ile çalışıyor.
+- **Read-Only Filesystem:** Kök dosya sistemi salt okunur yapıldı.
+- **Capabilities Dropped:** Tüm Linux yetenekleri (`ALL`) düşürüldü.
