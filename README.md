@@ -45,3 +45,7 @@ Konteyner, "en az ayrıcalık" ilkesine göre sınırlandırıldı:
 ---
 
 ## 🚀 Nasıl Çalıştırılır?
+
+Bu güvenli yapıyı test etmek için:
+
+```bash
