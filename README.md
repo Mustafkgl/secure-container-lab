@@ -49,3 +49,7 @@ Konteyner, "en az ayrıcalık" ilkesine göre sınırlandırıldı:
 Bu güvenli yapıyı test etmek için:
 
 ```bash
+# 1. İmajı Oluştur
+docker build -t secure-app:v1 .
+
+# 2. Salt Okunur ve Kısıtlı Yetkilerle Başlat
