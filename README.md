@@ -53,3 +53,5 @@ Bu güvenli yapıyı test etmek için:
 docker build -t secure-app:v1 .
 
 # 2. Salt Okunur ve Kısıtlı Yetkilerle Başlat
+docker run --rm -d --read-only --cap-drop=ALL --user nonroot -p 3000:3000 secure-app:v1
+```
