@@ -55,3 +55,8 @@ docker build -t secure-app:v1 .
 # 2. Salt Okunur ve Kısıtlı Yetkilerle Başlat
 docker run --rm -d --read-only --cap-drop=ALL --user nonroot -p 3000:3000 secure-app:v1
 ```
+
+<!-- updated 22 -->
+<!-- updated 23 -->
+<!-- updated 24 -->
+<!-- updated 25 -->
