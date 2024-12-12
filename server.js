@@ -1,3 +1,4 @@
 const express = require('express');
 const app = express();
 app.get('/', (req, res) => res.send('Merhaba DevSecOps!'));
+app.listen(3000, () => console.log('Sunucu 3000 portunda çalışıyor...'));
